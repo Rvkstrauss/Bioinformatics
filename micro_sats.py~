@@ -40,7 +40,7 @@ if __name__=="__main__":
     reps = int(sys.argv[2])
     if len(sys.argv)>3:
         dna = open(sys.argv[3]).read()
-        #print ( dna)
+        print ( dna)
     print(main(dna,seq,reps))
 
 
