@@ -60,7 +60,7 @@ def find_combinations(n, dna, num_reps):
     com = dna_combo(n)
     for n_nuc in com:
         print "Looking for ",n_nuc
-        result.update(find_all_ms(n_nuc, dna, num_reps))
+        result.update(find_all_ms_re(n_nuc, dna, num_reps))
     return result
 
 
